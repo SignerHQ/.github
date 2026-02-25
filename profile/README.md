@@ -85,7 +85,6 @@ Unlimited independent accounts derived from a single seed. Profile passwords pro
 256 universal icons mapped to 42 languages. Write your backup in English, recover it in Japanese. Or skip words entirely - just pick the icons.
 
 | | | | | | | | | |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 🇬🇧 `dog` | 🇪🇸 `perro` | 🇫🇷 `chien` | 🇩🇪 `Hund` | 🇯🇵 `犬` | 🇰🇷 `개` | 🇷🇺 `собака` | 🇸🇦 `كلب` | 🐕 |
 
 - **272-bit entropy** with 16-bit checksum - survives Grover's algorithm with 136-bit post-quantum security margin
