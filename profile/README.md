@@ -40,7 +40,7 @@ Signer.io splits your wallet into three roles across separate devices — your p
 ┌──────────────────┐         ┌──────────────────┐         ┌──────────────────┐
 │                  │         │                  │         │                  │
 │      NODE        │◄───────►│     WALLET       │◄───────►│     SIGNER       │
-│    (Online)      │  HTTP   │  (App/Browser)   │ BT/USB/ │    (Offline)     │
+│    (Online)      │  HTTPS  │  (App/Browser)   │ BT/USB/ │    (Offline)     │
 │                  │         │                  │  WiFi   │                  │
 │  Blockchain      │         │  App or browser  │         │  Seeds & signing │
 │  queries         │         │  No download     │         │  Keys never      │
