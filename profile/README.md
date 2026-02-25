@@ -47,7 +47,7 @@ Signer.io splits your wallet into four roles across separate devices - your priv
 │  device          │    │  Broadcasts      │    │  Health checks   │    │  Balance checks  │
 │                  │    │  signed tx       │    │                  │    │                  │
 └──────────────────┘    └──────────────────┘    └──────────────────┘    └──────────────────┘
-    🔒 Air-gapped        📱 App / browser   🛡️ Protects your identity      💻 Computer
+   🔒 Air-gapped        📱 App / browser    🛡️ Protects your identity      💻 Computer
 ```
 
 No hardware wallet to buy. No manufacturer to trust. No supply chain to verify. Take any spare computer, disconnect it from the internet, and it becomes your Signer. The Wallet works as an app or in any browser - no download required, just connect to your Signer. Relay Nodes protect your identity and IP address by default and load balance across the network.
