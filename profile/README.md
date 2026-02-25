@@ -13,7 +13,6 @@
 [![Blockchains](https://img.shields.io/badge/Blockchains-117+-0066ff?style=for-the-badge)](#-117-blockchains)
 [![Languages](https://img.shields.io/badge/Languages-42-7c3aed?style=for-the-badge)](#-42-languages)
 [![Formats](https://img.shields.io/badge/Import_Formats-40+-00b4d8?style=for-the-badge)](#-40-import-formats)
-[![Quantum Safe](https://img.shields.io/badge/Quantum-Safe-00d4aa?style=for-the-badge)](#-quantum-ready)
 [![License](https://img.shields.io/badge/License-PolyForm_Shield-e5e5e5?style=for-the-badge)](LICENSE)
 
 <br>
@@ -22,7 +21,7 @@
 
 <br>
 
-[Website](https://signer.io) · [Universal Quantum Seed](https://github.com/SignerHQ/universal-quantum-seed) · [Compiler](https://github.com/SignerHQ/signer-compiler)
+[Website](https://www.signer.io) · [Source Code](https://github.com/SignerHQ/signer) · [Compiler](https://github.com/SignerHQ/signer-compiler) · [Universal Quantum Seed](https://github.com/SignerHQ/universal-quantum-seed)
 
 <br>
 
