@@ -136,10 +136,10 @@ Decentralized infrastructure for blockchain queries, broadcasting, and balance c
 | Fully open code - no hidden firmware | ✅ | ⚠️ |
 | 117+ blockchains natively | ✅ | ⚠️ |
 | 40+ seed/key import formats | ✅ | ❌ |
-| Post-quantum cryptography | ✅ | ❌ |
+| Post-quantum cryptography | ✅ | ⚠️ |
 | Hidden profiles / plausible deniability | ✅ | ❌ |
 | 42 languages / 10 writing systems | ✅ | ❌ |
-| Built-in Tor hidden services | ✅ | ❌ |
+| Built-in Tor hidden services | ✅ | ⚠️ |
 | Wallet works as app or browser - no download | ✅ | ❌ |
 | Free forever | ✅ | ❌ |
 
