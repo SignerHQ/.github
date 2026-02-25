@@ -33,24 +33,24 @@
 
 ## How It Works
 
-Signer.io splits your wallet into three roles across separate devices - your private keys never touch the internet.
+Signer.io splits your wallet into four roles across separate devices - your private keys never touch the internet.
 
 ```
-┌──────────────────┐         ┌──────────────────┐         ┌──────────────────┐
-│                  │         │                  │         │                  │
-│      NODE        │◄───────►│     WALLET       │◄───────►│     SIGNER       │
-│    (Online)      │  HTTPS  │  (App/Browser)   │ BT/USB/ │    (Offline)     │
-│                  │         │                  │  WiFi   │                  │
-│  Blockchain      │         │  App or browser  │         │  Seeds & signing │
-│  queries         │         │  No download     │         │  Keys never      │
-│  Broadcasting    │         │  required        │         │  leave this      │
-│  Balance checks  │         │  Broadcasts      │         │  device          │
-│                  │         │  signed tx       │         │                  │
-└──────────────────┘         └──────────────────┘         └──────────────────┘
-   💻 Computer           📱 App or browser, any OS          🔒 Air-gapped
+┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐
+│                  │    │                  │    │                  │    │                  │
+│     SIGNER       │◄──►│     WALLET       │◄──►│   RELAY NODE     │◄──►│      NODE        │
+│    (Offline)     │    │  (App/Browser)   │    │    (Online)      │    │    (Online)      │
+│                  │    │                  │    │                  │    │                  │
+│  Seeds & signing │    │  App or browser  │    │  Identity & IP   │    │  Blockchain      │
+│  Keys never      │    │  No download     │    │  Load balancing  │    │  queries         │
+│  leave this      │    │  required        │    │  Node discovery  │    │  Broadcasting    │
+│  device          │    │  Broadcasts      │    │  Health checks   │    │  Balance checks  │
+│                  │    │  signed tx       │    │                  │    │                  │
+└──────────────────┘    └──────────────────┘    └──────────────────┘    └──────────────────┘
+    🔒 Air-gapped        📱 App / browser   🛡️ Protects your identity      💻 Computer
 ```
 
-No hardware wallet to buy. No manufacturer to trust. No supply chain to verify. Take any spare computer, disconnect it from the internet, and it becomes your Signer. The Wallet works as an app or in any browser - no download required, just connect to your Signer.
+No hardware wallet to buy. No manufacturer to trust. No supply chain to verify. Take any spare computer, disconnect it from the internet, and it becomes your Signer. The Wallet works as an app or in any browser - no download required, just connect to your Signer. Relay Nodes protect your identity and IP address by default and load balance across the network.
 
 <br>
 
@@ -109,16 +109,20 @@ Decentralized infrastructure for blockchain queries, broadcasting, and balance c
   SIGNER (offline)
      │ BT / USB / WiFi
   WALLET APP
-     │ Encrypted
-  RELAY NODE ─── IP protected, load balanced
+     │ HTTPS
+  RELAY NODE ─── Identity & IP protected by default, load balanced, health-checked
      │
-  DECENTRALIZED NODES ─── 117+ blockchains
+  NODE ─── 117+ blockchains, real-time data
 ```
+
+**Relay Node** - sits between users and the blockchain nodes, protecting IP addresses by default:
 
 | Feature | Description |
 |:---|:---|
-| **Circuit Breaker** | Automatic failover with exponential backoff. Unhealthy nodes isolated, zero downtime |
-| **Connection Pooling** | Persistent HTTP keep-alive pools, token bucket rate limiting, weighted load balancing |
+| **Identity & IP Protection** | Your identity and real IP are never exposed to blockchain nodes - Relay handles all outbound requests |
+| **Load Balancing** | Weighted distribution across available nodes with automatic failover |
+| **Circuit Breaker** | Exponential backoff isolates unhealthy nodes. Healthy nodes absorb load. Zero downtime |
+| **Connection Pooling** | Persistent HTTP keep-alive pools with token bucket rate limiting |
 | **Open Discovery** | Relays accept new nodes via verified discovery - health-checked and ban-capable |
 | **WebSocket Streaming** | Real-time push updates for watched addresses without polling |
 | **API Key Management** | Per-profile keys with per-coin access control, firewall rules, and request logging |
