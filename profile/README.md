@@ -6,7 +6,7 @@
 
 ### The world's first Isolated Wallet
 
-**More secure than hardware wallets. No device to buy. Use any spare computer as your signer — it never touches the internet.**
+**More secure than hardware wallets. No device to buy. Use any spare computer as your signer - it never touches the internet.**
 
 <br>
 
@@ -34,7 +34,7 @@
 
 ## How It Works
 
-Signer.io splits your wallet into three roles across separate devices — your private keys never touch the internet.
+Signer.io splits your wallet into three roles across separate devices - your private keys never touch the internet.
 
 ```
 ┌──────────────────┐         ┌──────────────────┐         ┌──────────────────┐
@@ -51,7 +51,7 @@ Signer.io splits your wallet into three roles across separate devices — your p
    💻 Computer           📱 App or browser, any OS          🔒 Air-gapped
 ```
 
-No hardware wallet to buy. No manufacturer to trust. No supply chain to verify. Take any spare computer, disconnect it from the internet, and it becomes your Signer. The Wallet works as an app or in any browser — no download required, just connect to your Signer.
+No hardware wallet to buy. No manufacturer to trust. No supply chain to verify. Take any spare computer, disconnect it from the internet, and it becomes your Signer. The Wallet works as an app or in any browser - no download required, just connect to your Signer.
 
 <br>
 
@@ -59,7 +59,7 @@ No hardware wallet to buy. No manufacturer to trust. No supply chain to verify. 
 
 ### 💎 117+ Blockchains
 
-Bitcoin, Ethereum, Solana, Cosmos, Polkadot, XRP, Cardano, Monero, and 110+ more. All major blockchain families supported natively — no plugins, no companion apps, no limitations.
+Bitcoin, Ethereum, Solana, Cosmos, Polkadot, XRP, Cardano, Monero, and 110+ more. All major blockchain families supported natively - no plugins, no companion apps, no limitations.
 
 ### 🔄 40+ Import Formats
 
@@ -67,7 +67,7 @@ BIP39, SLIP39, Aezeed, Electrum, WIF, Monero seeds, Codex32, SeedQR, SSKR, keyst
 
 ### 🌍 42 Languages
 
-Full UI in 42 languages across 10 writing systems. Arabic, Chinese, Hindi, Japanese, Korean, Russian, and more. True global accessibility — not just translated menus.
+Full UI in 42 languages across 10 writing systems. Arabic, Chinese, Hindi, Japanese, Korean, Russian, and more. True global accessibility - not just translated menus.
 
 ### 🧬 Quantum-Ready
 
@@ -75,7 +75,7 @@ Post-quantum signatures with **ML-DSA-65** (FIPS 204) and **SLH-DSA** (FIPS 205)
 
 ### 🍯 Hidden Profiles
 
-Unlimited independent accounts derived from a single seed. Profile passwords produce completely unrelated keys. No mathematical way to detect hidden profiles exist — plausible deniability by design.
+Unlimited independent accounts derived from a single seed. Profile passwords produce completely unrelated keys. No mathematical way to detect hidden profiles exist - plausible deniability by design.
 
 ### 🧅 Tor Hidden Services
 
@@ -87,16 +87,16 @@ Run your Node as a Tor hidden service with built-in onion address management. An
 
 **One seed. Any language. Any format.**
 
-256 universal icons mapped to 42 languages. Write your backup in English, recover it in Japanese. Or skip words entirely — just pick the icons.
+256 universal icons mapped to 42 languages. Write your backup in English, recover it in Japanese. Or skip words entirely - just pick the icons.
 
 | | | | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 🇬🇧 `dog` | 🇪🇸 `perro` | 🇫🇷 `chien` | 🇩🇪 `Hund` | 🇯🇵 `犬` | 🇰🇷 `개` | 🇷🇺 `собака` | 🇸🇦 `كلب` | 🐕 |
 
-- **272-bit entropy** with 16-bit checksum — survives Grover's algorithm with 136-bit post-quantum security margin
-- **Cross-language recovery** — write in Spanish, recover in Arabic, mix languages freely
-- **Accent-insensitive** — `corazón` = `corazon`, emoji input supported
-- **Plausible deniability** — your backup looks like random notes, not a crypto wallet
+- **272-bit entropy** with 16-bit checksum - survives Grover's algorithm with 136-bit post-quantum security margin
+- **Cross-language recovery** - write in Spanish, recover in Arabic, mix languages freely
+- **Accent-insensitive** - `corazón` = `corazon`, emoji input supported
+- **Plausible deniability** - your backup looks like random notes, not a crypto wallet
 
 → [Full documentation](https://github.com/SignerHQ/universal-quantum-seed)
 
@@ -104,7 +104,7 @@ Run your Node as a Tor hidden service with built-in onion address management. An
 
 ## Node Network
 
-Decentralized infrastructure for blockchain queries, broadcasting, and balance checks. Your keys stay on the Signer — the Node handles everything else.
+Decentralized infrastructure for blockchain queries, broadcasting, and balance checks. Your keys stay on the Signer - the Node handles everything else.
 
 ```
   SIGNER (offline)
@@ -120,7 +120,7 @@ Decentralized infrastructure for blockchain queries, broadcasting, and balance c
 |:---|:---|
 | **Circuit Breaker** | Automatic failover with exponential backoff. Unhealthy nodes isolated, zero downtime |
 | **Connection Pooling** | Persistent HTTP keep-alive pools, token bucket rate limiting, weighted load balancing |
-| **Open Discovery** | Relays accept new nodes via verified discovery — health-checked and ban-capable |
+| **Open Discovery** | Relays accept new nodes via verified discovery - health-checked and ban-capable |
 | **WebSocket Streaming** | Real-time push updates for watched addresses without polling |
 | **API Key Management** | Per-profile keys with per-coin access control, firewall rules, and request logging |
 
@@ -134,14 +134,14 @@ Decentralized infrastructure for blockchain queries, broadcasting, and balance c
 | Dedicated signing device | ✅ | ✅ |
 | No device purchase required | ✅ | ❌ |
 | No supply chain trust required | ✅ | ❌ |
-| Fully open code — no hidden firmware | ✅ | ⚠️ |
+| Fully open code - no hidden firmware | ✅ | ⚠️ |
 | 117+ blockchains natively | ✅ | ⚠️ |
 | 40+ seed/key import formats | ✅ | ❌ |
 | Post-quantum cryptography | ✅ | ❌ |
 | Hidden profiles / plausible deniability | ✅ | ❌ |
 | 42 languages / 10 writing systems | ✅ | ❌ |
 | Built-in Tor hidden services | ✅ | ❌ |
-| Wallet works as app or browser — no download | ✅ | ❌ |
+| Wallet works as app or browser - no download | ✅ | ❌ |
 | Free forever | ✅ | ❌ |
 
 <br>
@@ -153,7 +153,7 @@ Decentralized infrastructure for blockchain queries, broadcasting, and balance c
 | **Windows** | ✅ | ✅ | ✅ |
 | **macOS** | ✅ | ✅ | ✅ |
 | **Linux** | ✅ | ✅ | ✅ |
-| **Any device (app or browser)** | — | ✅ | — |
+| **Any device (app or browser)** | - | ✅ | - |
 
 <br>
 
@@ -161,7 +161,7 @@ Decentralized infrastructure for blockchain queries, broadcasting, and balance c
 
 | Repository | Description |
 |:---|:---|
-| [**Signer**](https://github.com/SignerHQ/signer) | The main wallet — offline signing, 117+ blockchains, PySide6 GUI |
+| [**Signer**](https://github.com/SignerHQ/signer) | The main wallet - offline signing, 117+ blockchains, PySide6 GUI |
 | [**Universal Quantum Seed**](https://github.com/SignerHQ/universal-quantum-seed) | 256-icon, 42-language, quantum-safe seed phrase system |
 | [**Signer Compiler**](https://github.com/SignerHQ/signer-compiler) | One-command build tool for Windows, macOS, and Linux |
 
@@ -169,7 +169,7 @@ Decentralized infrastructure for blockchain queries, broadcasting, and balance c
 
 ## License
 
-[PolyForm Shield 1.0.0](https://polyformproject.org/licenses/shield/1.0.0) — Copyright © 2026 Signer.io
+[PolyForm Shield 1.0.0](https://polyformproject.org/licenses/shield/1.0.0) - Copyright © 2026 Signer.io
 
 <br>
 
