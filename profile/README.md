@@ -37,7 +37,7 @@
 Signer.io splits your wallet into three roles across separate devices — your private keys never touch the internet.
 
 ```
-┌─────────────────┐         ┌─────────────────┐         ┌─────────────────┐
+┌──────────────────┐         ┌──────────────────┐         ┌──────────────────┐
 │                  │         │                  │         │                  │
 │      NODE        │◄───────►│     WALLET       │◄───────►│     SIGNER       │
 │    (Online)      │  HTTP   │  (App/Browser)   │ BT/USB/ │    (Offline)     │
@@ -47,8 +47,8 @@ Signer.io splits your wallet into three roles across separate devices — your p
 │  Broadcasting    │         │  required        │         │  leave this      │
 │  Balance checks  │         │  Broadcasts      │         │  device          │
 │                  │         │  signed tx       │         │                  │
-└─────────────────┘         └─────────────────┘         └─────────────────┘
-     💻 Computer              📱 App or browser, any OS          🔒 Air-gapped
+└──────────────────┘         └──────────────────┘         └──────────────────┘
+   💻 Computer           📱 App or browser, any OS          🔒 Air-gapped
 ```
 
 No hardware wallet to buy. No manufacturer to trust. No supply chain to verify. Take any spare computer, disconnect it from the internet, and it becomes your Signer. The Wallet works as an app or in any browser — no download required, just connect to your Signer.
