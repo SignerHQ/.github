@@ -76,10 +76,6 @@ Post-quantum signatures with **ML-DSA-65** (FIPS 204) and **SLH-DSA** (FIPS 205)
 
 Unlimited independent accounts derived from a single seed. Profile passwords produce completely unrelated keys. No mathematical way to detect hidden profiles exist - plausible deniability by design.
 
-### 🧅 Tor Hidden Services
-
-Run your Node as a Tor hidden service with built-in onion address management. Anonymous node operation with automatic key generation and export.
-
 <br>
 
 ## Universal Quantum Seed
