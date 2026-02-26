@@ -161,6 +161,7 @@ Decentralized infrastructure for blockchain queries, broadcasting, and balance c
 | [**Signer**](https://github.com/SignerHQ/signer) | The main wallet, node & signer - offline signing, 117+ blockchains |
 | [**Signer Compiler**](https://github.com/SignerHQ/signer-compiler) | One-command build tool for Windows, macOS, and Linux |
 | [**Universal Quantum Seed**](https://github.com/SignerHQ/universal-quantum-seed) | 256-icon, 42-language, quantum-safe seed phrase system |
+| [**Universal Quantum Seed (JS)**](https://github.com/SignerHQ/universal-quantum-seed-js) | 256-icon, 42-language, quantum-safe seed phrase system |
 
 <br>
 
