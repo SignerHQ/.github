@@ -33,12 +33,12 @@
 
 ## How It Works
 
-Lock splits your wallet into four roles across separate devices - your private keys never touch the internet.
+Lock™ splits your wallet into four roles across separate devices - your private keys never touch the internet.
 
 ```
 ┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐
 │                  │    │                  │    │                  │    │                  │
-│     LOCK         │◄──►│     WALLET       │◄──►│   RELAY NODE     │◄──►│      NODE        │
+│     LOCK™        │◄──►│     WALLET       │◄──►│   RELAY NODE     │◄──►│      NODE        │
 │    (Offline)     │    │  (App/Browser)   │    │    (Online)      │    │    (Online)      │
 │                  │    │                  │    │                  │    │                  │
 │  Seeds & signing │    │  App or browser  │    │  Identity & IP   │    │  Blockchain      │
@@ -123,9 +123,9 @@ Decentralized infrastructure for blockchain queries, broadcasting, and balance c
 
 <br>
 
-## Lock vs. Hardware Wallets
+## Lock™ vs. Hardware Wallets
 
-| | Lock | Hardware Wallets |
+| | Lock™ | Hardware Wallets |
 |:---|:---:|:---:|
 | Keys isolated from internet | ✅ | ✅ |
 | Dedicated signing device | ✅ | ✅ |
